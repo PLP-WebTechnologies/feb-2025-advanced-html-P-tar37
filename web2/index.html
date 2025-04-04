@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia-rich Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <header>
+    <h1>Welcome to My Multimedia Page</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Multimedia Elements</h2>
+    <section>
+      <h3>Audio Example</h3>
+      <audio controls>
+        <source src="media/audio1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+    <section>
+      <h3>Video Example</h3>
+      <video width="600" controls>
+        <source src="media/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section>
+      <h3>Registration Form</h3>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6" placeholder="Enter a strong password">
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required min="18" max="100">
+        
+        <input type="submit" value="Register">
+      </form>
+    </section>
+    <section>
+      <h3>Image Example</h3>
+      <img src="media/avatar.jpeg" alt="Example Image">
+    </section>
+    <section>
+      <h3>Sample Table</h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>30</td>
+          <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>25</td>
+          <td>janesmith@example.com</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h3>Items List</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contact us: admin@gmail.com | Phone: +254 456 7890</p>
+  </footer>
+
+</body>
+</html>
